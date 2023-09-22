@@ -1,0 +1,98 @@
+
+.cabecalho{
+  padding: 10px;
+  background-color: blueviolet;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.cabecalho .menu{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.navegacao{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.user-favorito-loja {
+    margin-top: 10px;
+
+}
+
+.user-favorito-loja li{
+    padding: 15px;
+}
+
+.Logo-Livro img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* Sessao principal*/
+
+.livros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.livro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+    
+}
+
+h2{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+.imagem-livros img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.botao-comprar{
+    width: 150px;
+}
+
+
+.botao-comprar a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* Sessao livros horror*/
+
+.livro-horror{
+    margin-top: 50px;
+}
+
